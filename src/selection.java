@@ -17,6 +17,7 @@ public class selection {
             System.out.println("Error reading numbers from file.");
         }
         long endTime = System.currentTimeMillis();
+        System.out.println(endTime-startTime);
     }
 
     public static void selectionSort(int[] arr) {
